@@ -16,7 +16,7 @@ USER_NAME="redisuser"
 # 資料夾所在地
 BASE_DIR="$(pwd)"
 REDIS_STACK_IMAGE="redis/redis-stack:7.4.0-v1"
-SENTINEL_IMAGE="bitnami/redis-sentinel:7.4.0"
+SENTINEL_IMAGE="bitnamilegacy/redis-sentinel:7.4.0"
 LOGROTATE_CONF="/etc/logrotate.d/redis"
 
 # 若要保證每次執行都「重新部署容器」，可將此設定為 "true" (會先移除容器再啟動)
